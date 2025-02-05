@@ -1,5 +1,5 @@
 # A seismic integrated deep learning approach for prediction of off-shore wind site Cone Penetration Test Data
-This is a PyTorch implementation of PointMetaBase proposed by our paper .
+This is a PyTorch implementation of deep learning model for Cone Penetration Test (CPT) Data prediction on ArcgisPro .
 
 **Abstract**: Cone Penetration Test (CPT) data obtained from boreholes are essential for the site selection of offshore wind farms. However, the sparse distribution of boreholes limits the amount of available data, making accurate CPT data prediction a significant challenge. Additionally, the high cost of drilling technology exacerbates this issue. To address these challenges, this study integrates 3D seismic data and proposes a deep learning model that incorporates the attributes of neighborhood seismic images. Seismic and CPT data are fed into a Seismic Neighborhood Aggregation Module (SNAM) for neighborhood selection and feature aggregation training. The trained model is then used to predict CPT data. The results from multiple experimental datasets show that the predicted values closely match the actual measurements and effectively capture changes in geotechnical properties at stratigraphic boundaries. Compared to commonly used models such as Support Vector Machines (SVM), Random Forests (RF), and Artificial Neural Networks (ANN), this method achieves the smallest error and provides more stable predictions. This advantage is particularly pronounced in regions with abrupt lithological changes within the same stratum. Furthermore, the model can accurately predict CPT data for deeper strata, significantly expanding its potential applications.
 
@@ -26,7 +26,7 @@ Our toolbox runs on ArcGIS Pro 3.2 with Python 3.8 and PyTorch 1.13.Please insta
 Please refer the [arcgis online help](https://pro.arcgis.com/en/pro-app/3.3/arcpy/geoprocessing_and_python/editing-script-tool-code.html) to view the sorce code.
 
 ## Additional Tools
-Additional tools including import geology dataset, such as sesmic data(sgy fomart), CPT holes data(office excel format), stratigraphic horizon (ascii grid data), visualization are also provided. A instal.exe provide to intsall [these additional tools](tools/install.exe).
+Additional tools including import geology dataset, such as sesmic data(sgy fomart), CPT holes data(office excel format), stratigraphic horizon (ascii grid data), visualization are also provided. A install.exe provide to intsall [these additional tools](tools/install.exe).
 ## Model parameters
 As shown in Figure 3, open the toolbox in ArcGIS Pro.
 <br/>
